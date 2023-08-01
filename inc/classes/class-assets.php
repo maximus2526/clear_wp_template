@@ -2,7 +2,7 @@
 /**
  * Enqueue theme assets
  *
- * @package THEME
+ * @package THEME_NAME
  */
 
 namespace THEME_NAME\Inc;
@@ -24,6 +24,7 @@ class Assets {
 		 * Actions.
 		 */
 		add_action( 'wp_enqueue_scripts', [ $this, 'register_styles' ] );
+		
 		add_action( 'wp_enqueue_scripts', [ $this, 'register_scripts' ] );
 		/**
 		 * The 'enqueue_block_assets' hook includes styles and scripts both in editor and frontend,

@@ -29,7 +29,7 @@ class Menus {
 
 	public function register_menus() {
 		register_nav_menus([
-			'test-header-menu' => esc_html__( 'Header Menu', 'THEME_NAME' ),
+			'Menu-1' => esc_html__( 'Header Menu', 'THEME_NAME' ),
 		]);
 	}
 
